@@ -1,0 +1,202 @@
+body{
+    color: #40514E;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 7.625rem;
+    color: #db4905;
+    line-height: 2;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #6c058b;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #F2AA4CFF;
+}
+hr {
+    
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    border-color: #b456ce;
+    height: 0;
+    width: 4%;
+    border-radius: 0%;
+    margin: 50px auto 50px auto;
+
+  }
+p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+.btn {
+    background: #F2AA4CFF;
+    background-image: -webkit-linear-gradient(top, #F2AA4CFF, #ffc169);
+    background-image: -moz-linear-gradient(top, #F2AA4CFF, #ffc169);
+    background-image: -ms-linear-gradient(top, #F2AA4CFF, #ffc169);
+    background-image: -o-linear-gradient(top, #F2AA4CFF, #ffc169);
+    background-image: linear-gradient(to bottom, #F2AA4CFF, #ffc169);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #6c058b;
+    background-image: -webkit-linear-gradient(top, #6c058b, #9a24c9);
+    background-image: -moz-linear-gradient(top, #6c058b, #9a24c9);
+    background-image: -ms-linear-gradient(top, #6c058b, #9a24c9);
+    background-image: -o-linear-gradient(top, #6c058b, #9a24c9);
+    background-image: linear-gradient(to bottom, #6c058b, #9a24c9);
+    text-decoration: none;
+  }
+
+  a{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(204, 122, 15);
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  a:hover{
+    color:rgb(255, 235, 209) ;
+  }
+  .copyright{
+    color: rgb(255, 235, 209);
+    font-size: 0.75rem;
+  }
+/****************** TEXT CLASS SELECTOR *****************/
+.topContainerTextProperty{
+    font-size: 100px;
+    
+}
+.textProperty
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.textProperty_1
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #6c058b;
+    font-size: 1.5rem;
+}
+.textColorOrange
+{
+    color: #F2AA4CFF
+}
+.skill_row_text{
+    
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.contact_message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+/****************** IMAGE CLASS SELECTOR *****************/
+.pumpkinImg{
+    height: 150px;
+    margin: 0;
+    position:absolute;
+    left :300px;
+    bottom: 20px;
+}
+.halloween-ghost{
+    height: 25%;
+    position:absolute;
+    left: 100px;
+}
+.flying-witch{
+    height: 200px;
+    position:absolute;
+    right: 100px;
+}
+.haunted-house{
+    
+    margin-bottom: 0;
+    
+}
+.profile-picture{
+    margin-top: 1.25rem;
+    height: 20.5rem;
+}
+.site_point_images_game_development{
+    width: 15%;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+}
+.site_point_images_web_development{
+    width: 15%;
+    height: auto;
+    float: right ;
+    margin-left: 30px;
+}
+.site_point_images_app_development{
+    width: 15%;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+    
+}
+/****************** DIV CLASS SELECTOR *****************/
+.topContainer
+{
+    background-color: #F2AA4CFF;
+    position: relative;
+    padding-top: 60px;
+}
+.title-div{
+    
+    position: relative;
+}
+.midContainer
+{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(241, 209, 167);
+    display: none;
+}
+.botContainer
+{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(19, 15, 11);
+    display: none;
+    padding-top: 30px;
+}
+.skill-row{
+    width: 50%; 
+    margin: 100px auto 100px auto;
+    
+    text-align: left;
+    line-height: 2;
+    
+}
+.skills{
+    
+}
+.middle-container{
+    position: relative;
+    margin: 100px 0;
+}
+.bottom-container{
+    background-color: #F2AA4CFF;
+    
+    padding: 40px 0 20px 0;
+}
